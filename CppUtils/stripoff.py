@@ -1,5 +1,5 @@
-from utility import debug_logs, debug_read1_file
-from utility import clear_file, read1, debug, peek1, write, skip1, setcurpos, getcurpos, skipwhitespaces, extract_word, isalpha
+from .utility.utility.settings import debug_logs, debug_read1_file
+from .utility.utility.functions import clear_file, read1, debug, peek1, write, skip1, setcurpos, getcurpos, skipwhitespaces, extract_word, isalpha
 
 # --------------------------------------------
 # ----- function to pre-process the file -----
